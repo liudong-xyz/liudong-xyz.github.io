@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     init            : function() {
       sidebarToggleLines.init();
 
-      window.addEventListener('mousedown', this.mousedownHandler.bind(this));
+      // window.addEventListener('mousedown', this.mousedownHandler.bind(this));
       window.addEventListener('mouseup', this.mouseupHandler.bind(this));
       document.querySelector('#sidebar-dimmer').addEventListener('click', this.clickHandler.bind(this));
       document.querySelector('.sidebar-toggle').addEventListener('click', this.clickHandler.bind(this));
